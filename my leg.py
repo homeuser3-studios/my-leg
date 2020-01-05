@@ -11,23 +11,3 @@ myhead = ["You were staring at the ground while running and you hit your head on
 
 easteregg = ["Darryl told you to go away from the baler, but you still played with it and you had some... serious limb damage. 'WOW THAT WAS A VERY NICE THE OFFICE (US) REFERENCE BUT EVERYTHING STILL HURTS!'", "The nuke had to hit you. 'OH NO I'M A BIG RADIOACTIVE MONSTER NOW! AND EVERYTHING HURTS!'"]
 
-print("Welcome to MY LEG!")
-print("(c) Homeuser3 Studios 2020")
-print("Check the file named 'cmdhelp' for help. Now, get started!")
-
-while 1:
-
-    choice = input("Please insert a command here: ")
-
-    randomnumber = f"{random.choice(numbers)}"
-
-    if randomnumber == "7":
-        print(f'{random.choice(easteregg)}')
-        print('\nNow time for what you asked...\n')
-        
-    if choice.lower() == "leg":
-        print(f'{random.choice(myleg)}')
-    elif choice.lower() == "head":
-        print(f'{random.choice(myhead)}')
-    else:
-        print('INVALID COMMAND.')
