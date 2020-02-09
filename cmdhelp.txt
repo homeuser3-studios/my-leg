@@ -1,5 +1,0 @@
-COMMAND LIST (my leg)
-
-leg - shows a reason for your leg getting hurt. Randomized.
-
-head - shows a reason for your head getting hurt. Randomized.
