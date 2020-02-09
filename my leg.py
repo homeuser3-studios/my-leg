@@ -11,3 +11,29 @@ myhead = ["You were staring at the ground while running and you hit your head on
 
 easteregg = ["Darryl told you to go away from the baler, but you still played with it and you had some... serious limb damage. 'WOW THAT WAS A VERY NICE THE OFFICE (US) REFERENCE BUT EVERYTHING STILL HURTS!'", "The nuke had to hit you. 'OH NO I'M A BIG RADIOACTIVE MONSTER NOW! AND EVERYTHING HURTS!'"]
 
+print(" __\n|__|\n|__|")
+print("The 8 is so pretty... 'Watch out!' MY LEG!!")
+print("(c) Homeuser3 Studios 2020")
+
+while 1:
+
+    choice = input("MY LEG! >> ")
+
+    if choice != "help":
+        randomnumber = f"{random.choice(numbers)}"
+
+        if randomnumber == "7":
+            print(f'{random.choice(easteregg)}')
+            print('\nNow time for what you asked...\n')
+        
+    if choice.lower() == "leg":
+        print(f'{random.choice(myleg)}')
+    elif choice.lower() == "head":
+        print(f'{random.choice(myhead)}')
+    elif choice.lower() == "help":
+        print('HELP MENU')
+        print('leg - Shows a random thing that can make your leg hurt.')
+        print('head - Shows a random thing that can make your head hurt.')
+        print('help - Shows this menu!')
+    else:
+        print('That is a invalid command. Do "help" for help.')
