@@ -1,8 +1,7 @@
-# my-leg
-Shows you reasons for your head and legs getting hurt... he he he
+# my leg
+MY LEG!!!
 
-## MyLeg Shell is currently in development
+## my leg shell update (2.x) is currently in development
 
-### WARNING
-
-[My Leg 2.0](https://github.com/homeuser3-studios/my-leg/tree/2.0) is currently in development and all 1.x versions will soon be irrelevant.
+[Trello Board](https://trello.com/b/2iXshUs5/my-leg)
+Includes to-do list, in progress, done for 1.x and 2.x
